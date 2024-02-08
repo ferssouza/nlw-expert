@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "O que significa a sigla 'JS' em JavaScript?",
-      respostas: [
-        "Java Superior",
-        "JavaScript",
-        "Just Started",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'querySelector()' em JavaScript?",
-      respostas: [
-        "Selecionar todos os elementos da página",
-        "Selecionar um elemento da página pelo seu seletor CSS",
-        "Criar um novo elemento na página",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a forma correta de comentar uma linha em JavaScript?",
-      respostas: [
-        "// Este é um comentário",
-        "/* Este é um comentário */",
-        "<!-- Este é um comentário -->",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Comparação de valores e tipos",
-        "Atribuição de valores",
-        "Comparação de valores",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é uma 'variável' em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um identificador para armazenar valores",
-        "Um operador lógico",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'addEventListener()' em JavaScript?",
-      respostas: [
-        "Criar um novo evento",
-        "Adicionar um ouvinte de eventos a um elemento",
-        "Remover um ouvinte de eventos de um elemento",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é uma 'função' em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um bloco de código reutilizável",
-        "Um operador aritmético",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'parseInt()' em JavaScript?",
-      respostas: [
-        "Converter uma string para um número inteiro",
-        "Converter um número inteiro para uma string",
-        "Arredondar um número para o inteiro mais próximo",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é 'DOM' em JavaScript?",
-      respostas: [
-        "Document Object Model",
-        "Data Object Model",
-        "Design Object Model",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do método 'push()' em JavaScript?",
-      respostas: [
-        "Remover um elemento de um array",
-        "Adicionar um elemento ao final de um array",
-        "Ordenar os elementos de um array",
-      ],
-      correta: 1
-    }
-  ];
+  {
+    pergunta: "O que é um algoritmo?",
+    respostas: [
+      "Uma linguagem de programação",
+      "Um conjunto de instruções para resolver um problema",
+      "Um tipo de variável",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a função de um loop 'for' em um algoritmo?",
+    respostas: [
+      "Realizar uma comparação entre dois valores",
+      "Executar um bloco de código repetidamente enquanto uma condição for verdadeira",
+      "Definir uma função",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é uma estrutura condicional em algoritmos?",
+    respostas: [
+      "Um tipo de dado",
+      "Um tipo de variável",
+      "Um bloco de código que executa determinadas ações com base em uma condição",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é uma variável em algoritmos?",
+    respostas: [
+      "Um conjunto de instruções",
+      "Um tipo de dado",
+      "Um identificador para armazenar valores",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a função do operador '&&' em algoritmos?",
+    respostas: [
+      "Realizar uma comparação entre dois valores",
+      "Realizar uma operação de adição",
+      "Realizar uma operação lógica 'E' entre duas expressões",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é um array em algoritmos?",
+    respostas: [
+      "Uma estrutura de dados que armazena uma coleção de elementos",
+      "Um tipo de variável",
+      "Uma estrutura de controle de fluxo",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a função do método 'push()' em algoritmos?",
+    respostas: [
+      "Remover um elemento de um array",
+      "Adicionar um elemento ao final de um array",
+      "Ordenar os elementos de um array",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é um algoritmo de ordenação?",
+    respostas: [
+      "Um algoritmo que organiza os elementos de um array em ordem alfabética",
+      "Um algoritmo que organiza os elementos de um array em uma sequência específica",
+      "Um algoritmo que organiza os elementos de um array em uma ordem específica, como crescente ou decrescente",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é a complexidade de tempo de um algoritmo?",
+    respostas: [
+      "O tempo que leva para um algoritmo ser executado",
+      "O número de operações básicas executadas por um algoritmo em relação ao tamanho da entrada",
+      "O número de linhas de código em um algoritmo",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é uma recursão em algoritmos?",
+    respostas: [
+      "Uma estrutura de dados que armazena uma coleção de elementos",
+      "Um tipo de loop",
+      "Um processo no qual uma função chama a si mesma diretamente ou indiretamente",
+    ],
+    correta: 2
+  }
+];
+
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   // se eu trocar a correta por uma outra opção ere irá remover (remove abaixo)
