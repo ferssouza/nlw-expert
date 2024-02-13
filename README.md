@@ -5,5 +5,6 @@ Tecnologias utilizadas
 * CSS
 * JavaScript
 * Github
+  
 Evento promovido pela Rocketseat. 
 
