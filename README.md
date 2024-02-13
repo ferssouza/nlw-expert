@@ -1,9 +1,9 @@
-# nlw-expert
+# **nlw-expert**
 
-##Tecnologias utilizadas
+Tecnologias utilizadas
 * HTML
 * CSS
 * JavaScript
 * Github
-Evento promovido pela Rocketseat 
+Evento promovido pela Rocketseat. 
 
